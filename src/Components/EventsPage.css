@@ -1,0 +1,42 @@
+.events-page {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+   
+.column {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+   
+.column h2 {
+    margin-bottom: 20px;
+}
+   
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+.column li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+   
+.column li:last-child {
+    border-bottom: none;
+}
+   
+.due-date {
+    color: red;
+}
+   
+.filter-dropdown {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
